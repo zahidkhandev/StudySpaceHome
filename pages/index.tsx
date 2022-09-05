@@ -711,17 +711,14 @@ const FrameComponent: NextPage = () => {
           alt=""
           src="../header.svg"
         />
-        <a
-          className="absolute top-[48px] left-[167px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]"
-          href="https://study-space-ochre.vercel.app/"
-        >
+        <b className="absolute top-[48px] left-[167px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
           Home
-        </a>
+        </b>
         <a
-          className="absolute top-[48px] left-[167px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]"
-          href="https://study-space-ochre.vercel.app/"
+          className="absolute top-[48px] left-[750px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]"
+          href="https://study-space-ochre.vercel.app/dashboard"
         >
-          Click here to go to dashboard
+          Dashboard
         </a>
         <b className="absolute top-[49px] left-[292px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
           About
