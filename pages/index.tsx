@@ -327,9 +327,12 @@ const FrameComponent: NextPage = () => {
             <div className="absolute top-[0px] left-[0px] w-[137px] h-[42.75px]">
               <div className="absolute top-[0px] left-[0px] w-[137px] h-[42.75px]">
                 <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[10px] bg-indigo-400" />
-                <div className="absolute top-[calc(50%_-_9.37px)] left-[calc(50%_-_56.5px)] font-semibold inline-block">
+                <a
+                  className="absolute top-[calc(50%_-_9.37px)] left-[calc(50%_-_56.5px)] font-semibold inline-block"
+                  href="https://study-space-ochre.vercel.app/"
+                >
                   Join StudySpace
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -708,9 +711,18 @@ const FrameComponent: NextPage = () => {
           alt=""
           src="../header.svg"
         />
-        <b className="absolute top-[48px] left-[167px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
+        <a
+          className="absolute top-[48px] left-[167px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]"
+          href="https://study-space-ochre.vercel.app/"
+        >
           Home
-        </b>
+        </a>
+        <a
+          className="absolute top-[48px] left-[167px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]"
+          href="https://study-space-ochre.vercel.app/"
+        >
+          Click here to go to dashboard
+        </a>
         <b className="absolute top-[49px] left-[292px] tracking-[-0.02em] leading-[28px] inline-block font-calibri w-[140px] h-[30px] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
           About
         </b>
